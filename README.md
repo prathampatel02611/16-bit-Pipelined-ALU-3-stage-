@@ -12,10 +12,10 @@ This project implements a **16-bit Arithmetic Logic Unit (ALU)** with a **3-stag
 ### ✅ Supported Operations
 - Addition
 - Subtraction
-- Multiplication
 - Bitwise AND
 - Bitwise OR
 - Bitwise XOR
+- Bitwise NOT
 - Shift Left
 - Shift Right
 
@@ -68,11 +68,10 @@ Input → [Stage 1 Reg] → [ALU Compute] → [Stage 3 Reg] → Output
 
 ## 🧪 Verification
 
-- SystemVerilog self-checking testbench
+- Verilog testbench
 - Randomized input stimulus
 - Corner-case testing (overflow, max/min, shift bounds)
 - Automatic expected-result comparison
-- 100% functional coverage achieved
 - Simulated using ModelSim
 
 ---
